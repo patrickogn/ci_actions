@@ -47,6 +47,8 @@ public class MyFunctionalityTest {
         MyFunctionality instance = new MyFunctionality();
         assertEquals(10, instance.getTen());
 
+
+
     }
 
 }
