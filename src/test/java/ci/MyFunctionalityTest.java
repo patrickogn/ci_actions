@@ -67,8 +67,8 @@ public class MyFunctionalityTest {
             con.prepareStatement(createTable).executeUpdate();
             String SQL = "INSERT INTO startcode_test.usertable (fname, lname, pw, phone, address) VALUES (?,?,?,?,?)";
             PreparedStatement ps = con.prepareStatement(SQL, Statement.RETURN_GENERATED_KEYS);
-            ps.setString(1, "Hans");
-            ps.setString(2, "Hansen");
+            ps.setString(1, "Patrick");
+            ps.setString(2, "Nielsen");
             ps.setString(3, "Hemmelig123");
             ps.setString(4, "40404040");
             ps.setString(5,"Rolighedsvej 7");
