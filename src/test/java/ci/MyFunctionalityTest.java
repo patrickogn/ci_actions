@@ -71,7 +71,7 @@ public class MyFunctionalityTest {
             ps.setString(2, "Hansen");
             ps.setString(3, "Hemmelig123");
             ps.setString(4, "40404040");
-            ps.setString(5,"Rolighedsvej 3");
+            ps.setString(5,"Rolighedsvej 7");
             ps.executeUpdate();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
