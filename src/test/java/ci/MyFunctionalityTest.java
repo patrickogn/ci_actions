@@ -49,8 +49,9 @@ public class MyFunctionalityTest {
         MyFunctionality instance = new MyFunctionality();
         assertEquals(10, instance.getTen());
     }
+}
 
-    @BeforeEach
+/*    @Test
     void setUp() {
         System.out.println("TESTINNNNGGGG");
         Connection con = null;
@@ -79,4 +80,4 @@ public class MyFunctionalityTest {
             e.printStackTrace();
         }
     }
-}
+}*/
