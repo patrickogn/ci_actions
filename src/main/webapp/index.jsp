@@ -30,6 +30,12 @@
 
             </thead>
             <tbody>
+
+
+            <script>
+                src="src/main/webapp/META-INF/test.js"
+            </script>
+
             <c:forEach var="stock" items="${requestScope.stockliste}">
                 <tr>
                     <td>${stock.stockid}</td>
