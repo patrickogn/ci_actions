@@ -31,9 +31,10 @@
             </thead>
             <tbody>
 
-
             <script>
-                src="src/main/webapp/META-INF/test.js"
+                console.log('hej');
+                console.log('med');
+                console.log('dig');
             </script>
 
             <c:forEach var="stock" items="${requestScope.stockliste}">
